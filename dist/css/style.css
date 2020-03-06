@@ -1,6 +1,5 @@
-@import '../../node_modules/bootstrap/dist/css/bootstrap';
-
-*{
+@import url(c:\Users\Pichau\Desktop\TARCIANA PSD PROJETO\Projeto Tarciana - Matheus Henrique da Silva 1.0\node_modules\bootstrap\dist\css\bootstrap.css);
+* {
   font-family: 'Crimson Text', serif;
   padding: 0;
   margin: 0;
@@ -26,7 +25,8 @@ body {
   position: absolute;
   top: 9%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .menu-navegacao {
@@ -38,13 +38,13 @@ body {
   padding: 12px;
 }
 
-.menu-navegacao ul li a{
+.menu-navegacao ul li a {
   color: #6e5051;
   font-weight: 700;
   /*transition: 0.25s;*/
 }
 
-.menu-navegacao ul li:hover{
+.menu-navegacao ul li:hover {
   border-bottom: 1px solid #41171b;
 }
 
@@ -74,47 +74,31 @@ body {
   font-weight: bold;
 }
 
-.banner1 {
-  
-}
-
-.conteiner-consulta {
-  padding: 10px;
-}
-
-.texto-agendar-consulta {
-  h2, h3 {
-    color: #2e2828;
-    
-  }
-  
-  h2 {
-    font-size: 2em;
-  }
-
-  h3 {
-    font-size: 1em;
-  }
+.texto-agendar-consulta h2, .texto-agendar-consulta h3 {
+  color: #2e2828;
 }
 
 .agendar-consulta {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  a{
-    background: #41171b;
-    color: white;
-    padding: 20px;
-  }
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.banner2 {
-    
+.agendar-consulta a {
+  background: #41171b;
+  color: white;
+  padding: 20px;
 }
 
 .services {
-  border: 1px solid red;
   width: 100%;
   padding: 50px 0;
   background-color: gray;
 }
+/*# sourceMappingURL=style.css.map */

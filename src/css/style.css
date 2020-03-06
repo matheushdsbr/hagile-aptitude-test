@@ -8171,8 +8171,17 @@ body {
   font-size: 14px;
   font-weight: bold; }
 
+.conteiner-consulta {
+  padding: 10px; }
+
 .texto-agendar-consulta h2, .texto-agendar-consulta h3 {
   color: #2e2828; }
+
+.texto-agendar-consulta h2 {
+  font-size: 2em; }
+
+.texto-agendar-consulta h3 {
+  font-size: 1em; }
 
 .agendar-consulta {
   display: flex;
@@ -8184,6 +8193,7 @@ body {
     padding: 20px; }
 
 .services {
+  border: 1px solid red;
   width: 100%;
   padding: 50px 0;
   background-color: gray; }

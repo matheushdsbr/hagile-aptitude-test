@@ -8171,17 +8171,32 @@ body {
   font-size: 14px;
   font-weight: bold; }
 
+.banner1 {
+  background-image: url("../img/banner1.png");
+  height: 829px; }
+  .banner1 .container {
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+    position: relative;
+    top: 300px;
+    color: white; }
+
 .conteiner-consulta {
-  padding: 10px; }
+  padding: 10px;
+  margin: 30px 30px; }
 
 .texto-agendar-consulta h2, .texto-agendar-consulta h3 {
-  color: #2e2828; }
+  color: #2e2828;
+  font-family: 'Maven Pro', sans-serif; }
 
 .texto-agendar-consulta h2 {
-  font-size: 2em; }
+  font-size: 2em;
+  font-weight: 700; }
 
 .texto-agendar-consulta h3 {
-  font-size: 1em; }
+  font-size: 1em;
+  font-weight: 700; }
 
 .agendar-consulta {
   display: flex;
@@ -8190,10 +8205,14 @@ body {
   .agendar-consulta a {
     background: #41171b;
     color: white;
-    padding: 20px; }
+    padding: 15px 25px; }
+
+.banner2 {
+  background-image: url("../img/banner2.png");
+  height: 702px;
+  width: 100%; }
 
 .services {
-  border: 1px solid red;
   width: 100%;
   padding: 50px 0;
   background-color: gray; }

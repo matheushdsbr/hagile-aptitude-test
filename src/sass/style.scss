@@ -20,53 +20,75 @@ body {
   background-color: #41171b;
 }
 
-.menu-principal {
-  width: 1112px;
-  height: 135px;
-  background-color: white;
-  position: absolute;
-  top: 9%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+.bg-white {
+  background: white;
 }
 
-.menu-navegacao {
-  margin-left: 172px;
+.header {
+  background-repeat: no-repeat;
+  background: url('../img/banner1.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
-  ul {
-    display: flex;
+  .nav-header {
+    ul {
+      display: flex;
+    }
+  
+    a {
+      padding: 12px;
+      color: #6e5051;
+      font-weight: 700;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      &:hover {
+        border-bottom: 1px solid #41171b;
+      }
+    }
   }
 
-  a {
-    border-bottom: 1px solid transparent;
-    
-  }
+  .header-content {
+    color: white;
 
-  a:hover {
-    border-bottom: 1px solid #41171b;
-  }
+    h1 {
+      font-size: 3em;
+      font-family: 'Maven Pro', sans-serif;
+    }
 
-  ul li a{
-    color: #6e5051;
-    font-weight: 700;
-    text-decoration: none;
-    padding: 12px;
+    p {
+      font-size: 18px;
+      font-family: 'Maven Pro', sans-serif;
+    }
+
+    a{
+      color: #41171b;
+      background-color: white;
+      padding: 10px 15px;
+      font-weight: bold;
+      position: relative;
+      top: 10px;
+    }
   }
 }
 
 .logo {
-  position: relative;
-  bottom: 40px;
-  left: 10px;
+  top: 30px;
+  left: 30px;
+  width: 70px;
+  height: 250px;
+  background: red;
+  position: absolute;
 }
 
 .logo-nome {
-  color: #6e5051;
+  /*color: #6e5051;
   display: inline;
   position: absolute;
   text-align: center;
   margin-top: 30px;
-  margin-left: 10px;
+  margin-left: 10px;*/
 }
 
 .logo-nome h2 {
@@ -78,40 +100,6 @@ body {
 .logo-nome h3 {
   font-size: 14px;
   font-weight: bold;
-}
-
-.banner1 {
-    background-image: url('../img/banner1.png');
-    background-repeat: no-repeat;
-    height: 829px;
-    .container {
-      display: flex;
-      align-items: center;
-      position: relative;
-      top: 300px;
-      color: white;
-      
-      h1 {
-        font-size: 3em;
-        font-family: 'Maven Pro', sans-serif;
-      }
-
-      p {
-        font-size: 18px;
-        font-family: 'Maven Pro', sans-serif;
-      }
-
-      a{
-        color: #41171b;
-        background-color: white;
-        padding: 10px 15px;
-        font-weight: bold;
-        position: relative;
-        top: 10px;
-      }
-    }
-
-    
 }
 
 .conteiner-consulta {

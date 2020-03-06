@@ -8126,41 +8126,57 @@ body {
   height: 32px;
   background-color: #41171b; }
 
-.menu-principal {
-  width: 1112px;
-  height: 135px;
-  background-color: white;
-  position: absolute;
-  top: 9%;
-  left: 50%;
-  transform: translate(-50%, -50%); }
+.bg-white {
+  background: white; }
 
-.menu-navegacao {
-  margin-left: 172px; }
-  .menu-navegacao ul {
+.header {
+  background-repeat: no-repeat;
+  background: url("../img/banner1.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  .header .nav-header ul {
     display: flex; }
-  .menu-navegacao a {
-    border-bottom: 1px solid transparent; }
-  .menu-navegacao a:hover {
-    border-bottom: 1px solid #41171b; }
-  .menu-navegacao ul li a {
+  .header .nav-header a {
+    padding: 12px;
     color: #6e5051;
     font-weight: 700;
     text-decoration: none;
-    padding: 12px; }
+    border-bottom: 1px solid transparent; }
+    .header .nav-header a:hover {
+      border-bottom: 1px solid #41171b; }
+  .header .header-content {
+    color: white; }
+    .header .header-content h1 {
+      font-size: 3em;
+      font-family: 'Maven Pro', sans-serif; }
+    .header .header-content p {
+      font-size: 18px;
+      font-family: 'Maven Pro', sans-serif; }
+    .header .header-content a {
+      color: #41171b;
+      background-color: white;
+      padding: 10px 15px;
+      font-weight: bold;
+      position: relative;
+      top: 10px; }
 
 .logo {
-  position: relative;
-  bottom: 40px;
-  left: 10px; }
+  top: 30px;
+  left: 30px;
+  width: 70px;
+  height: 250px;
+  background: red;
+  position: absolute; }
 
 .logo-nome {
-  color: #6e5051;
+  /*color: #6e5051;
   display: inline;
   position: absolute;
   text-align: center;
   margin-top: 30px;
-  margin-left: 10px; }
+  margin-left: 10px;*/ }
 
 .logo-nome h2 {
   font-size: 1em;
@@ -8170,30 +8186,6 @@ body {
 .logo-nome h3 {
   font-size: 14px;
   font-weight: bold; }
-
-.banner1 {
-  background-image: url("../img/banner1.png");
-  background-repeat: no-repeat;
-  height: 829px; }
-  .banner1 .container {
-    display: flex;
-    align-items: center;
-    position: relative;
-    top: 300px;
-    color: white; }
-    .banner1 .container h1 {
-      font-size: 3em;
-      font-family: 'Maven Pro', sans-serif; }
-    .banner1 .container p {
-      font-size: 18px;
-      font-family: 'Maven Pro', sans-serif; }
-    .banner1 .container a {
-      color: #41171b;
-      background-color: white;
-      padding: 10px 15px;
-      font-weight: bold;
-      position: relative;
-      top: 10px; }
 
 .conteiner-consulta {
   padding: 10px;

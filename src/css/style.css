@@ -8118,8 +8118,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   width: 100%;
-  height: 100%;
-  overflow-x: hidden; }
+  height: 100%; }
 
 .conteiner-color {
   width: 100%;
@@ -8198,9 +8197,12 @@ body {
   font-weight: bold; }
 
 .container-consulta {
-  padding: 10px; }
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  /*height: 180px;*/ }
 
-.texto-agendar-consulta h2, .texto-agendar-consulta h3 {
+.texto-agendar-consulta h2, .texto-agendar-consulta p {
   color: #2e2828;
   font-family: 'Maven Pro', sans-serif; }
 
@@ -8208,26 +8210,24 @@ body {
   font-size: 2em;
   font-weight: 700; }
 
-.texto-agendar-consulta h3 {
+.texto-agendar-consulta p {
   font-size: 1em;
   font-weight: 700; }
 
 .agendar-consulta {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
+  padding-top: 30px; }
   .agendar-consulta a {
     background: #41171b;
+    padding: 25px 45px;
     color: white;
-    padding: 15px 25px; }
+    font-family: 'Maven Pro', sans-serif; }
 
 .banner2 {
   background-image: url("../img/banner2.png");
   background-repeat: no-repeat;
-  height: 702px;
-  width: 100%; }
+  /*height: 702px;*/ }
 
 .services {
-  width: 100%;
+  border: 1px solid blue;
   padding: 50px 0;
   background-color: gray; }

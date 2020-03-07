@@ -8136,6 +8136,10 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+  .header .ajuste {
+    position: relative;
+    height: 134px;
+    bottom: 15px; }
   .header .nav-header ul {
     display: flex; }
   .header .nav-header a {
@@ -8163,16 +8167,16 @@ body {
       top: 10px; }
 
 .logo {
-  top: 30px;
-  left: 30px;
-  width: 70px;
-  height: 250px;
-  background: red;
-  position: absolute; }
+  position: relative;
+  bottom: 20px;
+  margin-left: 10px; }
 
 .logo-nome {
-  /*color: #6e5051;
-  display: inline;
+  color: #6e5051;
+  position: relative;
+  bottom: 80px;
+  margin-left: 10px;
+  /*display: inline;
   position: absolute;
   text-align: center;
   margin-top: 30px;
@@ -8187,9 +8191,8 @@ body {
   font-size: 14px;
   font-weight: bold; }
 
-.conteiner-consulta {
-  padding: 10px;
-  margin: 30px 30px; }
+.container-consulta {
+  padding: 10px; }
 
 .texto-agendar-consulta h2, .texto-agendar-consulta h3 {
   color: #2e2828;

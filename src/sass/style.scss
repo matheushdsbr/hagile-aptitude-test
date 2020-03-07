@@ -32,6 +32,12 @@ body {
   -o-background-size: cover;
   background-size: cover;
 
+  .ajuste {
+    position: relative;
+    height: 134px;
+    bottom: 15px;
+  }
+
   .nav-header {
     ul {
       display: flex;
@@ -74,17 +80,17 @@ body {
 }
 
 .logo {
-  top: 30px;
-  left: 30px;
-  width: 70px;
-  height: 250px;
-  background: red;
-  position: absolute;
+ position: relative;
+ bottom: 20px;
+ margin-left: 10px;
 }
 
 .logo-nome {
-  /*color: #6e5051;
-  display: inline;
+  color: #6e5051;
+  position: relative;
+  bottom: 80px;
+  margin-left: 10px;
+  /*display: inline;
   position: absolute;
   text-align: center;
   margin-top: 30px;
@@ -102,9 +108,8 @@ body {
   font-weight: bold;
 }
 
-.conteiner-consulta {
+.container-consulta {
   padding: 10px;
-  margin: 30px 30px;
 }
 
 .texto-agendar-consulta {

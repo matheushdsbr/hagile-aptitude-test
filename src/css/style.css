@@ -8320,3 +8320,20 @@ footer {
 .solucao-trabalhista {
   background-image: url("/src/img/banner3.png");
   color: white; }
+  .solucao-trabalhista h2 {
+    font-family: 'Maven Pro', sans-serif;
+    margin-bottom: 25px;
+    margin-top: 100px;
+    font-size: 30pt; }
+  .solucao-trabalhista a {
+    color: white;
+    font-family: 'Maven Pro', sans-serif;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 10px 25px; }
+  .solucao-trabalhista h4 {
+    font-family: 'Maven Pro', sans-serif; }
+  .solucao-trabalhista .line-y {
+    margin-top: 25px;
+    border-left: 4px solid white;
+    height: 400px; }

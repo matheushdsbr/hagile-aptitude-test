@@ -178,25 +178,36 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <h2 style="color: #492227;">CONTATO</h2>
+          <h2>CONTATO</h2>
           <div>
-            <form action="">FORMULÁRIO AQUI</form>
+            <form id="formulario" autocomplete="off">
+              <fieldset>
+                <input class="campo_nome" type="text" placeholder="Nome">
+                <input class="campo_email" type="password" placeholder="email"><br>
+                <input class="campo_telefone" type="number" placeholder="Telefone">
+                <input class="campo_assunto" type="text" placeholder="Assunto"><br>
+                <textarea class="msg" cols="44" rows="5" placeholder="Digite sua mensagem..."></textarea><br><br>
+                <!--<input class="btn_submit" type="submit" value="Enviar">-->
+              </fieldset>
+            </form>
           </div>
-          <a href="javascript:;">ENVIAR</a>
+          <a href="javascript:;">Enviar</a>
         </div>
         <div class="col-md-6">
           <div class="borda-contato">
-            <h5>INFORMACOES</h5>
-            <span>-icone-</span>
-            <p>Rua Sueli Luna Menelau, 183, Ibiribeira - Recife/PE CEP: 51.170-150</p>
-            <span>-icone-</span>
-            <p>(81) 98335-8295</p>
-            <span>-icone-</span>
-            <p>tarciana.figueireddo@gmail.com</p>
-            <span>-icone-</span>
-            <p>@tarciachandonodireito</p>
-            <span>-icone-</span>
-            <p>/tarciachandonodireito</p>
+            <div class="info">
+              <h5>INFORMACOES</h5>
+              <img src="img/icon-mark.png">
+              <p>Rua Sueli Luna Menelau, 183, Ibiribeira - Recife/PE CEP: 51.170-150</p>
+              <img src="img/icon-phone.png">
+              <p>(81) 98335-8295</p>
+              <img src="img/icon-email.png">
+              <p>tarciana.figueireddo@gmail.com</p>
+              <img src="img/icon-insta.png">
+              <p>@tarciachandonodireito</p>
+              <img src="img/icon-face.png">
+              <p>/tarciachandonodireito</p>
+            </div>
           </div>
         </div>
       </div>

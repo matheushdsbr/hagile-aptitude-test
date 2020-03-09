@@ -8326,7 +8326,7 @@ footer {
   margin-bottom: 10px; }
 
 .solucao-trabalhista {
-  background-image: url("/src/img/banner3.png");
+  background-image: url("../img/banner3.png");
   color: white; }
   .solucao-trabalhista h2 {
     font-family: 'Maven Pro', sans-serif;
@@ -8355,7 +8355,7 @@ footer {
   font-weight: bold; }
 
 .contact .borda-contato {
-  background-image: url("/src/img/banner4.png");
+  background-image: url("../img/banner4.png");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;

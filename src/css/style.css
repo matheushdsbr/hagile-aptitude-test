@@ -8200,12 +8200,7 @@ footer {
   color: #6e5051;
   position: relative;
   bottom: 80px;
-  margin-left: 10px;
-  /*display: inline;
-  position: absolute;
-  text-align: center;
-  margin-top: 30px;
-  margin-left: 10px;*/ }
+  margin-left: 10px; }
 
 .logo-nome h2 {
   font-size: 1em;
@@ -8219,8 +8214,7 @@ footer {
 .container-consulta {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  /*height: 180px;*/ }
+  flex-wrap: wrap; }
 
 .texto-agendar-consulta h2, .texto-agendar-consulta p {
   color: #2e2828;
@@ -8236,7 +8230,8 @@ footer {
 
 .agendar-consulta button {
   background: #41171b;
-  padding: 25px 45px; }
+  padding: 25px 45px;
+  border: none; }
 
 .agendar-consulta a {
   font-family: 'Maven Pro', sans-serif;

@@ -8180,13 +8180,16 @@ footer {
       width: 75%;
       font-size: 12pt;
       font-family: 'Maven Pro', sans-serif; }
-    .header .header-content a {
+    .header .header-content button {
+      border: none;
       color: #41171b;
       background-color: white;
       padding: 10px 15px;
       font-weight: bold;
       position: relative;
       top: 10px; }
+      .header .header-content button a {
+        color: #41171b; }
 
 .logo {
   position: relative;
@@ -8231,13 +8234,13 @@ footer {
   font-size: 1em;
   font-weight: 700; }
 
-.agendar-consulta {
-  padding-top: 30px; }
-  .agendar-consulta a {
-    background: #41171b;
-    padding: 25px 45px;
-    color: white;
-    font-family: 'Maven Pro', sans-serif; }
+.agendar-consulta button {
+  background: #41171b;
+  padding: 25px 45px; }
+
+.agendar-consulta a {
+  font-family: 'Maven Pro', sans-serif;
+  color: white; }
 
 .banner2 {
   background-image: url("../img/banner2.png");
@@ -8246,14 +8249,12 @@ footer {
   /*height: 702px;*/ }
   .banner2 .img-layer img {
     min-height: 100%;
-    min-width: 100%; }
+    min-width: 100%;
+    position: absolute; }
 
 .reset {
   margin: 0;
   padding: 0; }
-
-.services-border {
-  /*padding: 50px 0;*/ }
 
 .services {
   display: flex;
@@ -8275,11 +8276,13 @@ footer {
   align-items: flex-start; }
   .service-text1 p, .service-text1 a {
     font-family: 'Maven Pro', sans-serif; }
-  .service-text1 a {
+  .service-text1 button {
     background-color: white;
-    color: #41171b;
     padding: 10px 30px;
-    font-weight: bold; }
+    border: none; }
+    .service-text1 button a {
+      color: #41171b;
+      font-weight: bold; }
 
 .box {
   color: #41171b;
@@ -8335,12 +8338,15 @@ footer {
     margin-bottom: 25px;
     margin-top: 100px;
     font-size: 30pt; }
-  .solucao-trabalhista a {
-    color: white;
-    font-family: 'Maven Pro', sans-serif;
-    border: 1px solid white;
+  .solucao-trabalhista button {
+    border: none;
     border-radius: 4px;
-    padding: 10px 25px; }
+    padding: 10px 25px;
+    border: 1px solid white;
+    background-color: transparent; }
+    .solucao-trabalhista button a {
+      color: white;
+      font-family: 'Maven Pro', sans-serif; }
   .solucao-trabalhista h4 {
     font-family: 'Maven Pro', sans-serif; }
   .solucao-trabalhista .line-y {
@@ -8353,13 +8359,6 @@ footer {
   font-family: 'Maven Pro', sans-serif;
   font-weight: bold; }
 
-.contact a {
-  font-family: 'Maven Pro', sans-serif;
-  background-color: #41171b;
-  color: white;
-  border-radius: 30px;
-  padding: 8px 45px; }
-
 .contact .borda-contato {
   background-image: url("/src/img/banner4.png");
   background-repeat: no-repeat;
@@ -8370,3 +8369,56 @@ footer {
   color: white; }
   .contact .borda-contato .info {
     padding: 10px; }
+
+.contact #formulario .campo_nome {
+  font-family: 'Maven Pro', sans-serif;
+  color: #41171b;
+  background-color: #f3f3f3;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid #41171b; }
+
+.contact #formulario .campo_email {
+  font-family: 'Maven Pro', sans-serif;
+  color: #41171b;
+  background-color: #f3f3f3;
+  border: none;
+  border-bottom: 1px solid #41171b; }
+
+.contact #formulario .campo_telefone {
+  font-family: 'Maven Pro', sans-serif;
+  color: #41171b;
+  background-color: #f3f3f3;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid #41171b; }
+
+.contact #formulario .campo_assunto {
+  font-family: 'Maven Pro', sans-serif;
+  color: #41171b;
+  background-color: #f3f3f3;
+  border: none;
+  border-bottom: 1px solid #41171b; }
+
+.contact #formulario .msg {
+  font-family: 'Maven Pro', sans-serif;
+  color: #41171b;
+  background-color: #f3f3f3;
+  border: none;
+  border-bottom: 1px solid #41171b; }
+
+.contact #formulario .btn_submit {
+  font-family: 'Maven Pro', sans-serif;
+  background-color: #41171b;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 8px 45px; }
+  .contact #formulario .btn_submit:hover {
+    font-family: 'Maven Pro', sans-serif;
+    border: 1px solid #41171b;
+    background-color: white;
+    color: #41171b;
+    font-weight: bold; }

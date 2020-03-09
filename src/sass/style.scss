@@ -97,13 +97,18 @@ footer {
       font-family: 'Maven Pro', sans-serif;
     }
 
-    a{
+    button{
+      border: none;
       color: #41171b;
       background-color: white;
       padding: 10px 15px;
       font-weight: bold;
       position: relative;
       top: 10px;
+      
+      a {
+        color: #41171b;
+      }
     }
   }
 }
@@ -165,12 +170,14 @@ footer {
 
 .agendar-consulta {
   
-  padding-top: 30px;  
-  a{
+  button{
     background: #41171b;
     padding: 25px 45px;
-    color: white;
+  }
+
+  a {
     font-family: 'Maven Pro', sans-serif;
+    color: white;
   }
 }
 
@@ -184,6 +191,7 @@ footer {
       img {
         min-height: 100%;
         min-width: 100%;
+        position: absolute;
       }
     }
 }
@@ -191,11 +199,6 @@ footer {
 .reset {
   margin: 0;
   padding: 0;
-}
-
-.services-border {
-  
-  /*padding: 50px 0;*/
 }
 
 .services {
@@ -221,17 +224,18 @@ footer {
   justify-content: center;
   align-items: flex-start;
 
-
   p, a{
     font-family: 'Maven Pro', sans-serif ;
-    
   }
   
-  a {
+  button {
     background-color: white;
-    color: #41171b;
     padding: 10px 30px;
-    font-weight: bold;
+    border: none;
+    a {
+      color: #41171b;
+      font-weight: bold;
+    }
   }
 }
 
@@ -246,7 +250,6 @@ footer {
   align-items: center;
   padding: 0 30px;
   height: 200px;
-  
 }
 
 .sobre {
@@ -301,7 +304,6 @@ footer {
   background-image: url('/src/img/banner3.png');
   color: white;
   
-
   h2 {
     font-family: 'Maven Pro', sans-serif;
     margin-bottom: 25px;
@@ -309,12 +311,16 @@ footer {
     font-size: 30pt;
   }
 
-  a {
-    color: white;
-    font-family: 'Maven Pro', sans-serif;
-    border: 1px solid white;
+  button {
+    border: none;
     border-radius: 4px;
     padding: 10px 25px;
+    border: 1px solid white;
+    background-color: transparent;
+    a {
+      color: white;
+      font-family: 'Maven Pro', sans-serif;      
+    }
   }
 
   h4 {
@@ -336,14 +342,6 @@ footer {
     font-weight: bold;
   }
 
-  a {
-    font-family: 'Maven Pro', sans-serif;
-    background-color: #41171b;
-    color: white;
-    border-radius: 30px;
-    padding: 8px 45px;
-  }
-
   .borda-contato {
     background-image: url('/src/img/banner4.png');
     background-repeat: no-repeat;
@@ -354,6 +352,63 @@ footer {
     color: white;
     .info {
       padding: 10px;
+    }
+  }
+
+  #formulario {
+    .campo_nome {
+      font-family: 'Maven Pro', sans-serif;
+      color: #41171b;
+      background-color: #f3f3f3;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      border: none;
+      border-bottom: 1px solid #41171b;
+    }
+    .campo_email {
+      font-family: 'Maven Pro', sans-serif;
+      color: #41171b;
+      background-color: #f3f3f3;
+      border: none;
+      border-bottom: 1px solid #41171b;
+    }
+    .campo_telefone {
+      font-family: 'Maven Pro', sans-serif;
+      color: #41171b;
+      background-color: #f3f3f3;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      border: none;
+      border-bottom: 1px solid #41171b;
+    }
+    .campo_assunto {
+      font-family: 'Maven Pro', sans-serif;
+      color: #41171b;
+      background-color: #f3f3f3;
+      border: none;
+      border-bottom: 1px solid #41171b;
+    }
+    .msg {
+      font-family: 'Maven Pro', sans-serif;
+      color: #41171b;
+      background-color: #f3f3f3;
+      border: none;
+      border-bottom: 1px solid #41171b;
+    }
+    .btn_submit {
+      font-family: 'Maven Pro', sans-serif;
+      background-color: #41171b;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      padding: 8px 45px;
+      &:hover {
+        font-family: 'Maven Pro', sans-serif;
+        border: 1px solid #41171b;
+        background-color: white;
+        color: #41171b;
+        font-weight: bold;
+      }
     }
   }
 }
